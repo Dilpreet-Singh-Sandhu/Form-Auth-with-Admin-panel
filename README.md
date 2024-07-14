@@ -1,4 +1,4 @@
-Full Stack React Application
+<h1>Full Stack React Application</h1>
 This is a full stack MERN (MongoDB, Express.js, React.js, Node.js) application that includes user authentication with admin features. The admin can view all logins and the application is styled using Tailwind CSS.
 
 Features
@@ -41,25 +41,6 @@ npm start
 Open your browser and go to:
 
 http://localhost:4000, http://localhost:5173
-
-Folder Structure
-
-your-repo/
-├── client/         # React frontend
-│   ├── public/
-│   └── src/
-│       ├── components/
-│       ├── pages/
-│       ├── App.js
-│       └── index.js
-├── server/         # Express backend
-│   ├── config/
-│   ├── controllers/
-│   ├── models/
-│   ├── routes/
-│   ├── middleware/
-│   └── server.js
-└── README.md
 
 Technologies Used
 Frontend:
