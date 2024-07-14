@@ -1,58 +1,57 @@
-<h1>Full Stack React Application</h1>
-This is a full stack MERN (MongoDB, Express.js, React.js, Node.js) application that includes user authentication with admin features. The admin can view all logins and the application is styled using Tailwind CSS.
 
-<h1>Features</h1>
-<ul>
-User Authentication (Login, Signup)
-Admin Dashboard to view all logins
-Responsive design using Tailwind CSS
-RESTful API with Express.js
-MongoDB for database management
-</ul>
-<h1>Prerequisites</h1>
-Make sure you have the following installed on your machine:
-<ul>
-Node.js (v12 or higher)
-MongoDB
-</ul>
-User Authentication (Login, Signup)
+# Full Stack React Application
 
-cd client
-npm install
-cd ../server
-npm install
+This is a full stack web application built using the MERN stack (MongoDB, Express, React, Node.js). The application includes user authentication and an admin feature where the admin can see all logins.
 
-Create a .env file in the server directory with the following contents:
 
-PORT=4000
-MONGO_URI=your_mongodb_uri
+## Tech Stack
+
+**Client:** React, Redux, TailwindCSS
+
+**Server:** Node, Express
+
+**Database:** MongoDB
+
+
+## Technology used
+
+- React
+- Tailwind CSS
+- Node.js
+- Express
+- MongoDb
+## Installation
+
+Install my-project with npm
+
+```bash
+  npm install my-project
+  cd my-project
+```
+```bash
+  cd client
+  npm install
+
+  cd server
+  npm install
+```
+
+Create a .env file in the server directory and add the following environment variables:
+
+```bash
+PORT=5000
+MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
+```
 
-Running the Application
+tart the development server:
 
-
-Start the server:
-cd server
-npm run dev
-
-Start the client:
-Open a new terminal window and navigate to the client directory:
-cd client
+```bash
+# In the client directory
 npm start
 
-Open your browser and go to:
+# In the server directory
+npm run dev
 
-http://localhost:4000, http://localhost:5173
-
-Technologies Used
-Frontend:
-
-React.js
-Tailwind CSS
-Backend:
-
-Node.js
-Express.js
-MongoDB
-Mongoose
-JSON Web Tokens (JWT) for authentication
+```
+    
