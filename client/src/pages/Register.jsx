@@ -25,7 +25,7 @@ export default function Register() {
     } catch (error) {
       console.log(error);
     }
-  };
+  }
   return (
     <>
       <div className="register-container flex flex-col items-center justify-center min-h-screen bg-gray-900">
