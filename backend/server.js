@@ -16,7 +16,7 @@ app.use(express.json())
 app.use(cookieparser())
 app.use(cors({
     credentials: true,
-    origin: ['http://localhost:5173', 'http://localhost:4000']  
+    origin: ['https://form-auth-with-admin-panel.vercel.app']  
 }));
 
 app.use('/api/auth',AuthRoutes)
