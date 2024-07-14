@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const instance = axios.create({
-    baseURL:'http://localhost:4000',
+    baseURL:'https://form-auth-with-admin-panel.onrender.com',
     headers:{
         'Content-Type': 'application/json'
     },
