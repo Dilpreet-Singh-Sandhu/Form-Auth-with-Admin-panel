@@ -1,18 +1,20 @@
 <h1>Full Stack React Application</h1>
 This is a full stack MERN (MongoDB, Express.js, React.js, Node.js) application that includes user authentication with admin features. The admin can view all logins and the application is styled using Tailwind CSS.
 
-Features
+<h1>Features</h1>
+<ul>
 User Authentication (Login, Signup)
 Admin Dashboard to view all logins
 Responsive design using Tailwind CSS
 RESTful API with Express.js
 MongoDB for database management
-Prerequisites
+</ul>
+<h1>Prerequisites</h1>
 Make sure you have the following installed on your machine:
-
+<ul>
 Node.js (v12 or higher)
 MongoDB
-
+</ul>
 User Authentication (Login, Signup)
 
 cd client
