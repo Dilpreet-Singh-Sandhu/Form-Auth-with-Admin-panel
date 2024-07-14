@@ -44,7 +44,7 @@ MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
 ```
 
-tart the development server:
+Start the development server:
 
 ```bash
 # In the client directory
